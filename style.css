@@ -159,7 +159,7 @@
     width: 90%;
     height: 180px;
     margin: 0 auto;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 .box4-text {
@@ -184,9 +184,10 @@
 }
 
 .box4-small {
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 50px;
     border-radius: 5px;
+    padding: 10px;
 }
 .box4-small:hover {
     background-color: var(--grey);
