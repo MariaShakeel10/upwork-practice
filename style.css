@@ -115,3 +115,79 @@
 .img-1 {
     margin: 10px;
 }
+
+/* 2 box */
+.head-3 {
+    color: var(--grey);
+}
+
+.text-1 li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+/* 3 box */
+.box-3 {
+    display: flex;
+    align-items: center;
+    height: 370px;
+    width: 90%;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    font-size: 150%;
+}
+
+.box-three1 {
+    width: 50%;
+    /* background-color: aliceblue; */
+    height: inherit;
+}
+
+.three2 {
+    margin: 15px;
+    padding: 10px;
+}
+
+.text2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* box 4 */
+.box-4 {
+    width: 90%;
+    height: 180px;
+    margin: 0 auto;
+    background-color: yellow;
+}
+
+.box4-text {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.box4-text>p {
+    color: var(--grey);
+}
+
+.box4-text a {
+    color: var(--green);
+}
+
+.box4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 7px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.box4-small {
+    background-color: aqua;
+    height: 50px;
+    border-radius: 5px;
+}
+.box4-small:hover {
+    background-color: var(--grey);
+}
