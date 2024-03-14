@@ -180,7 +180,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 20px;
     row-gap: 7px;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .box4-small {
@@ -188,7 +188,112 @@
     height: 50px;
     border-radius: 5px;
     padding: 10px;
+    margin-bottom: 20px;
 }
+
 .box4-small:hover {
     background-color: var(--grey);
+}
+
+/* box 5 */
+.box-5 {
+    width: 90%;
+    height: 370px;
+    margin: 0 auto;
+    margin-top: 55px;
+    /* background-color: yellow; */
+    background-image: url(images/box\ 5image.jpg);
+    background-size: cover;
+    border-radius: 8px;
+    position: relative;
+
+}
+
+.text5 {
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    font-size: 200%;
+}
+
+.five {
+    background-color: var(--green);
+    color: white;
+    width: 25%;
+    height: 131px;
+    /* display: inline-block; */
+    /* position: absolute; */
+    bottom: 15px;
+    margin-top: 102px;
+    padding: 9px;
+    margin: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.five1 {
+    position: absolute;
+    left: 15px;
+    bottom: 25px;
+}
+
+.five2 {
+    position: absolute;
+    left: 410px;
+    bottom: 25px;
+}
+
+.five3 {
+    position: absolute;
+    right: 15px;
+    bottom: 25px;
+}
+
+.five:hover {
+    background-color: white;
+    color: var(--l-green);
+}
+
+/* box 6  */
+.box-6 {
+    width: 90%;
+    height: 380px;
+    margin: 0 auto;
+    /* background-color: yellow; */
+    position: relative;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.box6-1 {
+    width: 50%;
+    height: inherit;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+.item6 {
+/* list-style-image: url(images/list.png) ; */
+list-style: none;
+/* height: 10px;
+width: 10px; */
+margin: 15px;
+}
+.text-6>h1 {
+margin: 15px;
+font-size: 200%;
+}
+/* .img6 {
+    position: absolute;
+    z-index: 1;
+} */
+.box6-2 {
+    width: 50%;
+    height: inherit;
+    background-color: var(--green);
+    border-radius: 8px;
+}
+.text6-2 {
+    padding: 10px;
 }
