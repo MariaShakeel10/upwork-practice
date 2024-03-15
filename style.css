@@ -13,13 +13,15 @@
 
 /* nav bar */
 .nav-bar {
-    /* background-color: aqua; */
+    background-color:white;
     width: 100%;
     height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #a9a5a5db;
+    position: fixed;
+    z-index: 1000;
 }
 
 .list-start {
@@ -162,6 +164,10 @@
     /* background-color: yellow; */
 }
 
+#link {
+    color: var(--l-green);
+}
+
 .box4-text {
     margin-top: 10px;
     margin-left: 10px;
@@ -267,23 +273,27 @@
     align-items: center;
     margin-top: 20px;
 }
+
 .box6-1 {
     width: 50%;
     height: inherit;
     background-color: aliceblue;
     border-radius: 8px;
 }
+
 .item6 {
-/* list-style-image: url(images/list.png) ; */
-list-style: none;
-/* height: 10px;
+    /* list-style-image: url(images/list.png) ; */
+    list-style: none;
+    /* height: 10px;
 width: 10px; */
-margin: 15px;
+    margin: 15px;
 }
+
 .text-6>h1 {
-margin: 15px;
-font-size: 200%;
+    margin: 15px;
+    font-size: 200%;
 }
+
 /* .img6 {
     position: absolute;
     z-index: 1;
@@ -294,6 +304,65 @@ font-size: 200%;
     background-color: var(--green);
     border-radius: 8px;
 }
+
 .text6-2 {
     padding: 10px;
+}
+
+/* box 7 */
+.box7 {
+    /* background-color: aqua; */
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#one7 {
+    color: var(--l-green);
+}
+
+#two7 {
+    color: var(--grey);
+}
+
+#two7:hover {
+    color: var(--l-green);
+}
+
+.item7,
+.item7-2 {
+    color: var(--grey);
+    list-style: none;
+    margin-top: 5px;
+}
+.item7:hover,
+.item7-2:hover {
+    color: var(--l-green);
+}
+
+/* box 8 */
+.box8 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.text8 {
+    margin-top: 40px;
+}
+.text8>ul>li {
+    list-style: none;
+    margin-bottom: 10px
+}
+
+.text8>ul>li:hover {
+    border-bottom: 2px solid white;
 }
