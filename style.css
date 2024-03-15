@@ -20,8 +20,8 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #a9a5a5db;
-    position: fixed;
-    z-index: 1000;
+    /* position: fixed;
+    z-index: 1; */
 }
 
 .list-start {
